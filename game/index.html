@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>RUN ISLAND </title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="icon" type="image/icon-x" href="logo.png" >
+    </head>
+    <body onkeyup="key(event);">
+        <div class="background" id="background">
+
+            <img class="setting" id="setting" onclick="control();" src="settings.png">
+            <img class="start" id="start" onclick="start();" src="start.png">
+            <img class="instruction" id="instruction" onclick="instruction();" src="instruction.png"/>
+            <img class="ins" id="ins" src="ins.jpg"/>
+            <img class="ok" id="ok" onclick="ok();" src="ok.png"/>
+            <img class="control" id="control" src="control.jpg"/>
+            <img class="boy" id="boy" src="Idle (1).png"/>
+            <img class="back" id="back" src="back.png" onclick="back();"/>
+            <img class="about" id="about" src="about.png" onclick="about();"/> 
+            <img class="aboutgame" id="aboutgame" src="aboutgame.jpg"/>
+            <img class="back2" id="back2" src="back.png" onclick="back2();"/>
+            <img class="scoreBoard" id="scoreBoard" src="score.png"/>
+            <img class="win" id="win" src="win.png"/>
+            <img class="retry" id="retry" src="retry.png" onclick="retry();"/>
+            <img class="gameover" id="gameover" src="game-over.png"/>
+            <div class="tryagain" id="tryagain" onclick="retry();"></div>
+    
+            <p class="scoreText" id="scoreText">0000</p>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+
+</html>
